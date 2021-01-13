@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Endpoints GET / should return the name of the project and the version 1`] = `
+Object {
+  "name": "checkpoint-solution-jan21",
+  "version": "1.0.0",
+}
+`;
