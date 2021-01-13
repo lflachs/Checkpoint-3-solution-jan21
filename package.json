@@ -1,0 +1,37 @@
+{
+	"name": "checkpoint-solution-jan21",
+	"version": "1.0.0",
+	"description": "For this exercise you have 4 hours ahead of you. This checkpoint is not an exam, it will allow us to validate your skills, so try to do it as much as possible on your side. This checkpoint is very consistent, if you can't do everything it doesn't matter, do your best :wink:",
+	"main": "index.js",
+	"scripts": {
+		"start": "NODE_ENV=production node app.js",
+		"start:dev": "nodemon app.js",
+		"test": "jest --runInBand",
+		"test:watch": "jest --runInBand --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lflachs/Checkpoint-3-solution-jan21.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lflachs/Checkpoint-3-solution-jan21/issues"
+	},
+	"homepage": "https://github.com/lflachs/Checkpoint-3-solution-jan21#readme",
+	"dependencies": {
+		"@prisma/client": "^2.14.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-async-handler": "^1.1.4",
+		"http-errors": "^1.8.0"
+	},
+	"devDependencies": {
+		"@prisma/cli": "^2.14.0",
+		"jest": "^26.6.3",
+		"nanoid": "^3.1.20",
+		"nodemon": "^2.0.7",
+		"pg": "^8.5.1",
+		"supertest": "^6.0.1"
+	}
+}

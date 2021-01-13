@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Album endpoints User create, update and delete a album 1. as a user, I want to be able to create a new album 1`] = `
+Object {
+  "artist": "Nirvana",
+  "genre": "Rock",
+  "id": 1,
+  "picture": "http://sdfgdsas.com/cover.png",
+  "title": "Nevermind",
+}
+`;
